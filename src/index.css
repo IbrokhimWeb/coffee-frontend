@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;}
+
+a{
+    text-decoration: dashed;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root{
+    --white:white;
+    --yellow:#DA9F5B;
+    --cofe:#33211D;
+    --balck: black;
+    
+}
