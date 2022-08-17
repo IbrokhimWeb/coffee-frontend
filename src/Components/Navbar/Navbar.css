@@ -2,6 +2,7 @@
 .navbar{
     width: 100%;
     height: 110px;
+    z-index: 9999;
     /* background-color: rgb(82, 82, 82); */
     padding: 0 80px;
     position: absolute;

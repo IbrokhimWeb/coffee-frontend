@@ -3,17 +3,20 @@
 
 // Import Components
 import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
 
 // import css
 import './App.css';
-import Home from './Components/Home/Home';
+import Carusel from './Components/Carusel/Carusel';
 
 
 function App() {
     return (
         <>
             <Navbar/>
-            <Home/>
+            <Carusel/>
+            {/* <About/> */}
             {/* <Route path="/" element={<Navbar />} /> */}
         </>
     );
