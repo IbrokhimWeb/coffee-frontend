@@ -24,7 +24,7 @@ function About(props) {
                         <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
                         <button>Learn More</button>
                     </div>
-                    <img src={coffee} alt="" />
+                    <img src={coffee} alt="" width={350} height={500} />
                     <div className="vision">
                         <h1>Our Vision</h1>
                         <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
