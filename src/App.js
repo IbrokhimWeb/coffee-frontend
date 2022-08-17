@@ -16,6 +16,7 @@ function App() {
         <>
             <Navbar/>
             <Carusel/>
+            {/* Added commit */}
             {/* <About/> */}
             {/* <Route path="/" element={<Navbar />} /> */}
         </>
