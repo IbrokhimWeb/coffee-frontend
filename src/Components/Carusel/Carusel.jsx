@@ -2,12 +2,12 @@
 import React from 'react';
 
 // Import Photo
-import carusel1 from '../../Img/carousel-1.jpg'
+import carusel1 from '../../img/carousel-1.jpg';
 
 
 // Import icons
 import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
-import About from '../About/About';
+// import About from '../About/About';
 
 function Carusel(props) {
     return (

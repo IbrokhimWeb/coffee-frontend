@@ -8,7 +8,7 @@ import './About.css'
 import { FiCheck } from 'react-icons/fi';
 
 // Import photo
-import coffee from '../../Img/about.png'
+import coffee from '../../img/about.png'
 
 function About(props) {
     return (

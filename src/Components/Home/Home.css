@@ -1,13 +1,13 @@
 .home{
     width: 100%;
-    /* min-height: 300vh; */
+    height: 120vh;
     
     /* background-image: url('../../Img/carousel-1.jpg'); */
 }
 
 .home-carusel::after{
     bottom: -1px;
-    background: url(../../Img/overlay-bottom.png);
+    background: url(../../img/overlay-bottom.png);
     position: absolute;
     content: "";
     width: 100%;
@@ -25,6 +25,7 @@
 }
 
 .home .home-carusel{
+    height: 120vh;
     top: 0;
     right: 0;
     bottom: 0;
