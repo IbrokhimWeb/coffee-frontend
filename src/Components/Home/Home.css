@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    /* min-height: 300vh; */
+    height: 120vh;
     
     /* background-image: url('../../Img/carousel-1.jpg'); */
 }
@@ -25,6 +25,7 @@
 }
 
 .home .home-carusel{
+    min-height: 120vh;
     top: 0;
     right: 0;
     bottom: 0;

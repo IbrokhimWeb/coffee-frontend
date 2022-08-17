@@ -1,3 +1,4 @@
+// @ts-nocheck
 // Import React
 // import { BrowserRouter } from 'react-router-dom';
 
