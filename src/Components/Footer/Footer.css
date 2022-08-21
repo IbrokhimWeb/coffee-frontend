@@ -1,0 +1,161 @@
+/* Foter css */
+.footer{
+    height: 65vh;
+    background: linear-gradient(rgba(51,33,29,0.9), rgba(51,33,29,0.9)),url(../../img/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+
+.footer::before{
+    top: -1px; 
+    position: relative;
+    display: flex;
+    content: "";
+    height: 15px;
+    background: url(../../img/overlay-top.png);
+}
+
+/* Footer content */
+.footer-content{
+    width: 100%;
+    height: 49vh; 
+    border-bottom: 0.5px solid rgba(256, 256, 256, .1);
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-get-in, 
+.footer-follow-us,
+.footer-open-hour,
+.footer-newsletter {
+    color: var(--white);
+    width: 40vh;   
+}
+
+.footer-get-in h4,
+.footer-follow-us h4,
+.footer-open-hour  h4,
+.footer-newsletter h4{
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.footer-get-in__item{
+    display: flex;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.footer-get-in p,
+.footer-follow-us p,
+.footer-newsletter p{
+    font-size: 1rem;
+    margin-bottom: 15px ;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.footer-follow-us__icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-follow-us__icon {
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid var(--white);
+    box-sizing: content-box;
+}
+
+.footer-open-hour p{
+    font-size: 0.9rem;
+    margin-bottom: 5px ;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.footer-open-hour__margin{
+    margin-bottom: 20px !important;
+}
+
+.footer-newsletter{
+    width: 45vh !important;
+}
+
+.footer__sign-up{
+    display: flex;
+}
+
+.footer__sign-up input{
+    width: 180px;
+    height: 50px;
+    padding: 2px 22px;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: content-box;
+}
+
+.footer__sign-up button{
+    padding: 0 15px;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: content-box;
+    background: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer After */
+.footer-after{
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.footer-after p{
+    color: var(--white);
+    /* font-weight: 100; */
+
+}
+
+.footer-after p a{
+    color: var(--yellow);
+
+}
