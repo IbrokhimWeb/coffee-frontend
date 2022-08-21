@@ -32,13 +32,14 @@
 }
 
 .development img{
-    width: 500px;
+    width: 450px;
+    height: 500px;
 }
 
 .story{
-    width: 450px;
+    width: 380px;
     min-height: 100px;
-    padding: 50px;
+    padding: 48px 15px;
     margin: 0 -70px 0 0;
     /* margin-left: 150px; */
     /* background-color: aqua; */
@@ -75,9 +76,9 @@
 
 
 .vision{
-    width: 450px;
+    width: 380px;
     min-height: 100px;
-    padding: 50px;
+    padding: 48px 15px;
     margin: 0 -70px 0 0;
 
     /* margin-left: 150px; */
