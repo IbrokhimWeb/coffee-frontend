@@ -10,7 +10,6 @@ function Home(props) {
     return (
         <>
             
-            
         </>
     );
 }
