@@ -14,7 +14,7 @@ function Footer(props) {
     return (
         <>
             {/* Footer Section */}
-            <section className="footer">
+            <footer className="footer">
                 {/* Footer Content */}
                 <div className="footer-content">
 
@@ -59,10 +59,10 @@ function Footer(props) {
 
                     <div className="footer-newsletter">
                         <h4>NEWSLETTER</h4>
-                        <p>Amet elitr vero magna sed ipsum sit <br /> kasd sea elitr lorem rebum</p>
+                        <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
                         <div className="footer__sign-up">
-                            <input type="text" placeholder="Your Email"/>
-                            <button>Sign Up</button>
+                        <input type="text" placeholder='Your Email'/>
+                        <button>Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ function Footer(props) {
                     <p>Designed by <a href="#">CYBER STEP</a></p>
                 </div>
                 {/* /Footer Content */}
-            </section>
+            </footer>
             {/* /Footer Section */}
         </>
     );
