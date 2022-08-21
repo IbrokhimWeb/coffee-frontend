@@ -11,10 +11,15 @@ a{
     box-sizing: border-box;
 }
 
+body{
+    background-color: var(--live-bg);
+}
+
 :root{
     --white:white;
     --yellow:#DA9F5B;
     --cofe:#33211D;
     --balck: black;
+    --live-bg:#FFFBF2;
     
 }

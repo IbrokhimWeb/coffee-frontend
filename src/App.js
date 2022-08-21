@@ -4,7 +4,7 @@
 
 // Import Components
 import Navbar from './Components/Navbar/Navbar';
-import Home from './Components/Home/Home';
+// import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Service from './Components/Service/Service';
 
@@ -18,10 +18,10 @@ function App() {
         <>
             <Navbar/>
             <Carusel/>
-            {/* Added commit */}
+            {/* <Home/> */}
             <About/>
-            {/* <Route path="/" element={<Navbar />} /> */}
             <Service/>
+            {/* <Route path="/" element={<Navbar />} /> */}
         </>
     );
 }
