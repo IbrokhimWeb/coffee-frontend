@@ -1,0 +1,81 @@
+/* Border css */
+.border{
+    height: 70vh;
+    background: linear-gradient(rgba(51,33,29,0.9), rgba(51,33,29,0.9)),url(../../img/bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border::before{ 
+
+    top: -1px; 
+    position: relative;
+    display: flex;
+    content: "";
+    height: 15px;
+    background: url(../../img/overlay-top.png);
+}
+
+.border::after{ 
+    top: -27px; 
+    position: relative;
+    display: flex;
+    content: "";
+    height: 15px;
+    background: url(../../img/overlay-bottom.png);
+}
+
+.border-content__blok{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.border-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.border-content h1{
+    font-size: 4.5rem;
+    color: var(--yellow);
+}
+
+.border-content h2{
+    margin-top: 10px;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.border-content p{
+    margin: 20px 0 35px;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+
+.border__sign-up{
+    display: flex;
+}
+
+.border__sign-up input{
+    width: 180px;
+    height: 50px;
+    padding: 2px 22px;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: content-box;
+}
+
+.border__sign-up button{
+    padding: 0 15px;
+    font-size: 1.2rem;
+    border: none;
+    box-sizing: content-box;
+    background: var(--yellow);
+    cursor: pointer;
+}

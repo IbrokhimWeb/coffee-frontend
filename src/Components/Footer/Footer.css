@@ -4,7 +4,8 @@
     background: linear-gradient(rgba(51,33,29,0.9), rgba(51,33,29,0.9)),url(../../img/bg.jpg);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+}
 
 
 .footer::before{ 
@@ -109,33 +110,8 @@
     border: none;
     box-sizing: content-box;
     background: var(--yellow);
+    cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Footer After */

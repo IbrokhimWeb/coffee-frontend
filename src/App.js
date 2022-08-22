@@ -1,30 +1,28 @@
 // Import React
-// import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 // import css
 import './App.css';
 
 // Import Components
 import Navbar from './Components/Navbar/Navbar';
-// import Home from './Components/Home/Home';
-import Carusel from './Components/Carusel/Carusel';
+import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Service from './Components/Service/Service';
 import Footer from './Components/Footer/Footer';
 
 
-
 function App() {
     return (
-        <>
-            <Navbar/>
-            {/* <Home/> */}
-            <Carusel/>
-            <About/>
-            <Service/>
-            <Footer/>
-            {/* <Route path="/" element={<Navbar />} /> */}
-        </>
+        <BrowserRouter>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/service" element={<Service />} />
+            </Routes>
+            <Footer />
+        </BrowserRouter>
     );
 }
 
