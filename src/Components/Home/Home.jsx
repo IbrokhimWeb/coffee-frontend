@@ -9,6 +9,7 @@ import Carusel from '../Carusel/Carusel';
 import About from '../About/About';
 import Service from '../Service/Service';
 import Border from '../Border/Border';
+import Reservation from '../Pages/Reservation/Reservation';
 
 function Home(props) {
     return (
@@ -17,6 +18,7 @@ function Home(props) {
             <About/>
             <Service/>
             <Border/>
+            <Reservation/>
         </>
     );
 }
