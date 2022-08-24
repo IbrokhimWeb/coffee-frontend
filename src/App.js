@@ -7,14 +7,13 @@ import './App.css';
 // Import Components
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
-
-// import About from './Components/About/About';
-import Service from './Components/Service/Service';
 import Footer from './Components/Footer/Footer';
 import AboutPage from './Components/AboutPage/AboutPage';
 import Contact from './Components/Contact/Contact';
-// import Carusel from './Components/Carusel/Carusel';
+import ServicePage from './Components/ServicePage/ServicePage';
+import MenuPage from './Components/MenuPage/MenuPage';
 // import Testimonial from './Components/Pages/Testimonial/Testimonial';
+
 
 
 function App() {
@@ -24,8 +23,9 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<AboutPage />} />
-                <Route path="/service" element={<Service />} />
+                <Route path="/service" element={<ServicePage />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/menu" element={<MenuPage />} />
             </Routes>
             <Footer />
         </BrowserRouter>

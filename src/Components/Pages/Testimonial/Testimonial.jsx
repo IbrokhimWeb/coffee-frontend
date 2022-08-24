@@ -10,8 +10,14 @@ function Testimonial(props) {
                 <h2 className="testimonial__desc">Our Clients Say</h2>
             </div>
             <ul className="testimonial__list">
-                <OurClients/>
+                <OurClients />
             </ul>
+            <div className="testimonial__span-wrapper">
+                <span className='testimonial__span'></span>
+                <span className='testimonial__span'></span>
+                <span className='testimonial__span'></span>
+                <span className='testimonial__span'></span>
+            </div>
         </div>
     );
 }

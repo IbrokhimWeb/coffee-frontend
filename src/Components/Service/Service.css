@@ -44,3 +44,46 @@
    align-items: center;
    justify-content: center;
 }
+
+
+
+/* ///////////////////// */
+
+.service-item{
+   width: 100%;
+   max-width: 570px;
+   padding: 0px 10px;
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+}
+.service-item__content{
+   margin-left: 20px;
+}
+
+.service-item__content .service-item__content-icons{
+   color: var(--cofe);
+   margin: 0 10px -15px 0;
+   border-radius: 50%;
+   padding: 12px;
+   font-size: 20px;
+   box-sizing: content-box;
+   background-color: var(--yellow);
+   /* display: flex; */
+}
+
+.service-item__title{
+   display: inline-block;
+   align-items: center;
+   color: var(--cofe);
+   font-size: 24px;
+   line-height: 1.5;
+   margin-bottom: 15px;
+}
+
+.service-item__desc{
+   color: rgba(85, 85, 85, 0.802);
+   font-size: 16px;
+   line-height: 1.5;
+   word-spacing: 3px;
+}

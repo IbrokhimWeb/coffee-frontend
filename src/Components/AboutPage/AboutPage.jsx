@@ -6,10 +6,8 @@ import Header from '../Header/Header';
 function AboutPage(props) {
     return (
         <>
-            {/* //qwerty */}
             <Header mainPage="About Us"/>
             <About />
-            {/* <Footer/> */}
         </>
     );
 }

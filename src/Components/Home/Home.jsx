@@ -11,6 +11,7 @@ import Service from '../Service/Service';
 import Border from '../Border/Border';
 import Reservation from '../Pages/Reservation/Reservation';
 import Testimonial from '../Pages/Testimonial/Testimonial';
+import Menu from '../Menu/Menu';
 
 
 function Home(props) {
@@ -20,6 +21,7 @@ function Home(props) {
             <About/>
             <Service/>
             <Border/>
+            <Menu/>
             <Reservation/>
             <Testimonial/>
         </>

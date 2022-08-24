@@ -12,6 +12,7 @@
     top: -1px; 
     position: relative;
     display: flex;
+    margin-top: 20px;
     content: "";
     height: 15px;
     background: url(../../img/overlay-top.png);
