@@ -1,7 +1,11 @@
+/* Start css */
+
 .carusel-wrapper {
    width: 100%;
    height: 120vh;
-
+   display: flex;
+   transform: translateX(0) ;
+   transition: all 0.3s ease-in-out;
 }
 
 .carusel__content::after {

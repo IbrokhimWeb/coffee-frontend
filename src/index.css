@@ -12,6 +12,7 @@ a{
 }
 
 body{
+    overflow-x: hidden;
     background-color: var(--live-bg);
 }
 
