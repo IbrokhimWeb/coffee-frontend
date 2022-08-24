@@ -11,6 +11,7 @@ import Service from './Components/Service/Service';
 // import css
 import './App.css';
 import Carusel from './Components/Carusel/Carusel';
+import Testimonial from './Components/Pages/Testimonial/Testimonial';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <About/>
             <Service/>
             {/* <Route path="/" element={<Navbar />} /> */}
+            <Testimonial/>
         </>
     );
 }
