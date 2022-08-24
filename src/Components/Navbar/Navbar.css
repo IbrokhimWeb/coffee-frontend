@@ -23,15 +23,22 @@
     gap: 30px;
 }
 
-.navbar ul li a{
+.navbar ul li .navbar-hrefs{
     color: var(--white);
     font-size: 20px;
     font-weight: bold;
 }
 
-.navbar ul li a:hover{
+.navbar ul li .navbar-hrefs:hover{
     color: var(--yellow);
+    cursor: pointer;
+
    
+}
+
+.navbar-href__icon{
+    font-size: 15px;
+    margin-left: 2px;
 }
 
 .active{
