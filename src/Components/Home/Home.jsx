@@ -10,6 +10,8 @@ import About from '../About/About';
 import Service from '../Service/Service';
 import Border from '../Border/Border';
 import Reservation from '../Pages/Reservation/Reservation';
+import Testimonial from '../Pages/Testimonial/Testimonial';
+
 
 function Home(props) {
     return (
@@ -19,6 +21,7 @@ function Home(props) {
             <Service/>
             <Border/>
             <Reservation/>
+            <Testimonial/>
         </>
     );
 }
