@@ -17,9 +17,7 @@ import Menu from '../Menu/Menu';
 function Home(props) {
     return (
         <>
-<<<<<<< HEAD
                
-=======
             <Carusel/>
             <About/>
             <Service/>
@@ -27,7 +25,6 @@ function Home(props) {
             <Menu/>
             <Reservation/>
             <Testimonial/>
->>>>>>> d87e975ea0fc8549edc73de32305f437bb55c750
         </>
     );
 }
