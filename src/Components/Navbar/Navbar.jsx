@@ -1,54 +1,55 @@
 // Import React
-import { React, useState } from 'react';
-import { AiFillCaretDown } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
+import { React, useState } from "react";
+import { AiFillCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 // Import Css
-import './Navbar.css';
+import "./Navbar.css";
 
+function Navbar() {
+  const [show, SetShow] = useState(false);
 
+  return (
+    <div className="navbar">
+      <h1>COFFEE</h1>
+      <ul>
+        <li>
+          <Link to="/" className="navbar-hrefs active">
+            Home
+          </Link>
+          <Link to="/about" className="navbar-hrefs">
+            About
+          </Link>
+          <Link to="/service" className="navbar-hrefs">
+            Service
+          </Link>
+          <Link to="/menu" className="navbar-hrefs">
+            Menu
+          </Link>
+          <button onClick={() => SetShow((e) => !e)} className="navbar-btn">
+            Pages <AiFillCaretDown className="navbar-btn__icon" />
+          </button>
 
-function Navbar(props) {
-    const [show, SetShow] = useState(false);
-
-
-    return (
-        <>
-            <div className="navbar">
-                <h1>COFFEE</h1>
-                <ul>
-                    <li>
-                        <Link to="/" className="navbar-hrefs active" >Home</Link>
-                        <Link to="/about" className="navbar-hrefs" >About</Link>
-                        <Link to="/service" className="navbar-hrefs" >Service</Link>
-                        <Link to="/menu" className="navbar-hrefs" >Menu</Link>
-                        <button onClick={()=>SetShow(e=>!e)}  className="navbar-btn">Pages <AiFillCaretDown className="navbar-btn__icon"/></button>
-
-                       
-
-                        <Link to="/contact" className="navbar-hrefs" >Contact</Link>
-                    </li>
-                    {
-                            show ?
-
-                                <div className="none-pages-blok">
-                                    <div className="none-pages">
-                                        <Link to="/reservation">Reservation</Link>
-                                        <Link to="/testimonial">Testimonial</Link>
-                                    </div>
-                                </div>
-
-                                : ""
-                        }
-                </ul>
+          <Link to="/contact" className="navbar-hrefs">
+            Contact
+          </Link>
+        </li>
+        {show ? (
+          <div className="none-pages-blok">
+            <div className="none-pages">
+              <Link to="/reservation">Reservation</Link>
+              <Link to="/testimonial">Testimonial</Link>
             </div>
-        </>
-    );
+          </div>
+        ) : (
+          ""
+        )}
+      </ul>
+    </div>
+  );
 }
 
 export default Navbar;
-
-
 
 //  {/* <div className="navbar">
 // <h1>COFFEE</h1>

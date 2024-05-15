@@ -1,140 +1,129 @@
-.about{
-    width: 100%;
-    margin: 100px 0 100px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about {
+  width: 100%;
+  margin: 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.about h2{
-    color: var(--yellow);
-    margin-bottom: 20px;
-
+.about h2 {
+  color: var(--yellow);
+  margin-bottom: 20px;
 }
 
-.about h1{
-    font-size: 55px;
-    margin-bottom: 50px;
+.about h1 {
+  font-size: 55px;
+  margin-bottom: 50px;
 }
 
-.linia{
-    width: 0;
-    height: 100px;
-    margin-bottom: 20px;
-    border: 1px solid var(--yellow);
-    background-color:var(--yellow) ;
+.linia {
+  width: 0;
+  height: 100px;
+  margin-bottom: 20px;
+  border: 1px solid var(--yellow);
+  background-color: var(--yellow);
 }
 
-.development{
-    display: flex;
-    /* gap: 50px; */
+.development {
+  display: flex;
+  /* gap: 50px; */
 }
 
-.development img{
-    width: 450px;
-    height: 500px;
+.development img {
+  width: 450px;
+  height: 500px;
 }
 
-.story{
-    width: 380px;
-    min-height: 100px;
-    padding: 48px 15px;
-    margin: 0 -70px 0 0;
-    /* margin-left: 150px; */
-    /* background-color: aqua; */
+.story {
+  width: 380px;
+  min-height: 100px;
+  padding: 48px 15px;
+  margin: 0 -70px 0 0;
+  /* margin-left: 150px; */
+  /* background-color: aqua; */
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
 }
 
-.story button{
-    width: 150px;
-    height: 40px;
-    font-size: 15px;
-    border: none;
-    color: var(--white);
-    background-color: var(--cofe);
+.story button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  color: var(--white);
+  background-color: var(--cofe);
 }
 
-.story h1{
-    font-size: 40px;
-    margin: 0 0 20px 0;
+.story h1 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
 }
 
-.story h4{
-    margin: 0 0 20px 0;
+.story h4 {
+  margin: 0 0 20px 0;
 }
 
-.story p{
-    margin: 0 0 20px 0;
-    font-size: 20px;
-    font-weight:lighter;
+.story p {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
+.vision {
+  width: 380px;
+  min-height: 100px;
+  padding: 48px 15px;
+  margin: 0 -70px 0 0;
 
-.vision{
-    width: 380px;
-    min-height: 100px;
-    padding: 48px 15px;
-    margin: 0 -70px 0 0;
+  /* margin-left: 150px; */
+  /* background-color: aqua; */
 
-    /* margin-left: 150px; */
-    /* background-color: aqua; */
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* text-align: center; */
 }
 
-.vision button{
-    margin-top: 20px;
-    width: 150px;
-    height: 40px;
-    font-size: 15px;
+.vision button {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
 
-    border: none;
-    background-color: var(--yellow);
+  border: none;
+  background-color: var(--yellow);
 }
 
-.vision h1{
-    font-size: 40px;
-    margin: 0 0 20px 0;
+.vision h1 {
+  font-size: 40px;
+  margin: 0 0 20px 0;
 }
 
-.vision p{
-    margin: 0 0 20px 0;
+.vision p {
+  margin: 0 0 20px 0;
 }
 
-.vision .added{
-    display: flex;
+.vision .added {
+  display: flex;
 }
 
 .vision .added .added-icons {
-    width: 30px;
-    display: flex;
-    flex-direction: column;
-
+  width: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-.vision .added .added-icons .ic{
-    font-size: 20px;
-    margin: 7px;
-    color: var(--yellow);
-
+.vision .added .added-icons .ic {
+  font-size: 20px;
+  margin: 7px;
+  color: var(--yellow);
 }
 
-.added-text p{
-    margin: 10px;
-    font-size: 18px;
-
+.added-text p {
+  margin: 10px;
+  font-size: 18px;
 }
-
-
-
-
-
-

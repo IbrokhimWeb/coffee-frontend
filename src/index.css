@@ -1,26 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat",sans-serif;}
-
-a{
-    text-decoration: dashed;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
+a {
+  text-decoration: dashed;
 }
 
-body{
-    overflow-x: hidden;
-    background-color: var(--live-bg);
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-:root{
-    --white:white;
-    --yellow:#DA9F5B;
-    --cofe:#33211D;
-    --balck: black;
-    --live-bg:#FFFBF2;
-    
+body {
+  overflow-x: hidden;
+  background-color: var(--live-bg);
+}
+
+:root {
+  --white: white;
+  --yellow: #da9f5b;
+  --cofe: #33211d;
+  --balck: black;
+  --live-bg: #fffbf2;
 }
